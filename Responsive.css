@@ -1,0 +1,608 @@
+@media screen and (max-width:767px) {
+    .desktop-nav{
+        display: none !important;
+    }
+
+    .burger{
+        z-index: 2;
+    }
+
+    #mobile-nav{
+        position: absolute;
+        background-color: rgb(3, 2, 28);
+        top: 70px;
+        width: 100%;
+        left: 0;
+        height: 150px;
+        text-align: center;
+        padding: 0.5rem 0;
+
+    }
+
+    #mobile-nav li{
+        margin-bottom: 10px;
+    }
+    .p1 {
+        color: rgb(197, 143, 19);
+        font-size: 20px;
+        margin: -32px -29px;
+    }
+    .t1 {
+        color: white;
+        margin: 54px -126px;
+        font-size: 50px;
+    }
+    .p2 {
+        margin: -17px -27px;
+    }
+    .p3 {
+        font-size: 15px;
+        margin: -16px 127px;
+    }
+    .line {
+        background-color: rgb(197, 143, 19);
+        width: 40px;
+        height: 1px;
+        margin: 17px 124px;
+    }
+    .reservetable {
+        margin-left: 15px;
+    }
+    .section2 {
+        flex-direction: column;
+    }
+    .t2 {
+        font-size: 40px;
+        margin: 22px -69px;
+    }
+    .line2 {
+        margin: 5px 48px;
+    }
+    .p4 {
+        font-size: 15px;
+        color: gray;
+        text-align: center;
+        margin: 10px -77px;
+    }
+    .p5 {
+        font-size: 18px;
+        margin: 39px -57px;
+    }
+    .p6 {
+        margin: -58px 104px;
+    }
+    .line3 {
+        margin: 261px 105px;
+    }
+    .Menu {
+        margin: 327px 82px;
+    }
+    .pic5 {
+        position: absolute;
+        margin: -663px -84px;
+        width: 382px;
+        height: 230px;
+    }
+    .section3 {
+        flex-direction: column;
+        margin: -343px -136px;
+    }
+    .gallery {
+        font-size: 40px;
+        margin: 375px -27px;
+    }
+    .line4 {
+        margin: 425px -26px;
+    }
+    .section4 {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        margin: 533px -122px;
+    }
+    .res1 {
+        position: absolute;
+        margin: -175px -513px;
+    }
+    .lineres2{
+        width: 214px;
+        margin: -237px -265px;
+    }
+    .res2{
+        font-size: 40px;
+        margin: 10px -350px;
+    }
+    .res3{
+        font-size: 40px;
+        margin: 10px -350px;
+    }
+    .reservation {
+        margin: 400px 240px;
+    }
+    .forme {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 16px -233px;
+    }
+    .guest {
+        padding: 10px 3px;
+    }
+    .lineres {
+        width: 447px;
+        margin: 302px -378px;
+    }
+    .parares {
+        font-size: 7px;
+        
+        margin: 309px -375px;
+    }
+    .footer {
+        align-items: center;
+        flex-direction: column;
+    }
+    .linef {
+        margin: -1px -259px;
+        width: 25px;
+    }
+    .tf2 {
+        
+        margin: -27px 0px;
+        font-size: 10px;
+    }
+    
+    .pf {
+        margin: 14px -267px;
+        font-size: 8px;
+    }
+    .tf {
+        margin: 10px -254px;
+        font-size: 10px;
+    }
+    .tel {
+        position: absolute;
+        margin: -4px 155px;
+        font-size: 15px;
+    }
+    .logo2 {
+        position: absolute;
+        margin: -144px 14px;
+    }
+    .ftback {    
+        height: 160px;
+    }
+   .gal {
+    display: none;
+   }
+   .menu {
+    margin: 167px 58px;
+   }
+   .linemenu {
+    margin: -170px 113px;
+}
+.breakfast {
+    color: white;
+    font-size: 50px;
+    margin: 347px 138px;
+}
+.linefast {
+    margin: -354px 128px;
+}
+.bfast {
+    flex-direction: column;
+    margin: 1px 1px;
+}
+.pict {
+    width: 420px;
+    height: 236px;
+    margin: 482px 49px;
+}
+.m {
+    color: white;
+    margin: -406px 65px;
+    font-size: 15px;
+}
+.prix {
+    color: white;
+    font-size: 15px;
+    margin: 212px 394px;
+}
+.mm {
+    margin: -120px 65px;
+}
+.prix2 {
+    margin: -80px 394px;
+}
+.brunchtitle {
+    color: white;
+    font-size: 50px;
+    margin: 154px 101px;
+}
+.linebrunch {
+    margin: -162px 108px;
+}
+.brunch {
+    margin-top: 200px;
+}
+.li1  {
+    display: none;
+}
+.li2  {
+    display: none;
+}
+.li3  {
+    display: none;
+}
+.li4  {
+    display: none;
+}
+.li5  {
+    display: none;
+}
+.li6  {
+    display: none;
+}
+.li7  {
+    display: none;
+}
+.li8  {
+    display: none;
+}
+.li9  {
+    display: none;
+}
+.li10  {
+    display: none;
+}
+.li11 {
+    display: none;
+}
+.li12 {
+    display: none;
+}
+.m2 {
+    margin: 230px 68px;
+}
+.prix3 {
+    margin: 230px 72px;
+}
+.mm2 {
+    margin:533px -350px ;
+}
+.prix4 {
+    position: absolute;
+    margin: 533px 317px;
+}
+.linebeetwen2 {
+    display: none;
+}
+.picbrunch {
+    position: absolute;
+    width: 360px;
+    height: 308px;
+    margin: -152px 62px;
+}
+.lunch {
+    display: none;
+}
+.dinner {
+    flex-direction: column;
+    margin: 10px 10px;
+}
+.all-line-dinner {
+    display: none;
+}
+.linebeetwendinner {
+    display: none;
+}
+.linedinner {
+    position: absolute;
+    margin: 270px 109px;
+}
+.menudinner ul {
+    margin: 650px -187px;
+}
+.picdinner {
+    position: absolute;
+    margin: -1300px -222px;
+}
+.prixdinner ul {
+    position: absolute;
+    margin: -570px 10px;
+}
+.menudinner2 ul  {
+    margin: -573px -187px;
+}
+.all-line-dinner2 {
+    display: none;
+}
+.prixdinner2 ul {
+    position: absolute;
+    margin: -895px 67px;
+}
+.menuspecialtitle {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: -301px 1px;
+}
+.special-plats {
+    position: absolute;
+    margin: -202px -206px;
+}
+.linespecial {
+    background-color: rgb(197, 143, 19);
+    height: 1px;
+    width: 288px;
+    margin: 291px 105px;
+}
+.special {
+    flex-direction: column;
+}
+.all-line-special {
+    display: none;
+}
+.all-line-special2 {
+    display: none;
+}
+.linebeetwenspecial {
+    display: none;
+}
+.menuspecial ul{
+    position: absolute;
+    margin: -224px -179px;
+}
+.prixspecial ul{
+    position: absolute;
+    margin: -616px 111px;
+}
+.menuspecial2 ul{
+    position: absolute;
+    margin: -322px -181px;
+}
+.prixspecial2 ul{
+    position: absolute;
+    margin: -325px 109px;
+}
+.boisson {
+   display: none;
+}
+.menuboissontitle {
+    display: none;
+}
+.lineboisson {
+    display: none;
+}
+.boissonch {
+    display: none;
+}
+.linebeetwenboisson {
+    display: none;
+}
+.boisson {
+    display: none;
+}
+.jus {
+    display: none;
+}
+.menujustitle {
+    display: none;
+}
+.all-line-jus {
+    display: none;
+}
+.all-line-jus2 {
+    display: none;
+}
+.linebeetwenjus {
+    display: none;
+}
+.footermenu {
+    margin: 479px 1px;
+}
+.footermenu .tel{
+    margin: -87px 261px;
+}
+.footermenu .pf{
+    margin: 14px -49px;
+    font-size: 8px;
+}
+.footermenu .tf{
+    margin: 10px -34px;
+    font-size: 10px;
+}
+.footermenu .tf2{
+    margin: 42px 93px;
+}
+.footermenu .logo2 {
+    position: absolute;
+    margin: -77px 108px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lineabout {
+    margin: -184px 149px;
+}
+.about-section {
+    margin: 44px -11px;
+}
+.section1 {
+    flex-direction: column;
+    margin: 377px 43px;
+}
+.discriptionabout h1 {
+    text-align: center;
+}
+.discriptionabout p {
+    text-align: center;
+}
+.linenumber {
+    margin: 1px 221px;
+}
+.sectionabout2 {
+    flex-direction: column;
+}
+.titlepic h1 {
+    font-size: 40px;
+    margin: 1px -139px;
+}
+.picabout2 {
+    position: absolute;
+    margin: 0px 36px;
+}
+.discriptionabout2 {
+    width: 439px;
+    margin-left: 54px;
+}
+.picdiscri {
+    width: 437px;
+    height: 258px;
+    margin: 0px 39px;
+}
+.sectionabout3 {
+    flex-direction: column;
+}
+.photosection2 {
+    display: flex;
+    flex-direction: column;
+}
+.discriptionsection2 h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+.footerabout .tf2 {
+    margin: 37px 100px;
+}
+.footerabout .tel {
+    margin: -69px 284px;
+}
+.footerabout .logo2 {
+    position: absolute;
+    margin: -77px 116px;
+}
+.footerabout .pf {
+    margin: 14px -49px;
+    font-size: 8px;
+}
+.footerabout .linef {
+    margin: -1px -39px;
+    width: 25px
+}
+.footerabout .tf {
+    margin: 10px -34px;
+    font-size: 10px;
+}
+.linefaq {
+    margin: -153px 195px;
+
+}
+.faq {
+    margin: 1px 1px;
+    text-align: center;
+    
+}
+.footerfaq .tel{
+    margin: -87px 271px;
+}
+.footerfaq .pf{
+    margin: 14px -49px;
+    font-size: 8px;
+}
+.footerfaq .tf{
+    margin: 10px -34px;
+    font-size: 10px;
+}
+.footerfaq .tf2{
+    margin: 42px 93px;
+}
+.footerfaq .logo2 {
+    position: absolute;
+    margin: -77px 108px;
+}
+.contentbx .label {
+    width: inherit;
+}
+ .contentbx .content{
+    width: inherit;
+}
+.faq .contentbx.active .content {
+    height: 90px;
+    padding: 10px;
+    width: 501px;
+}
+.cards {
+    flex-direction: column;
+}
+.formulecontact {
+    flex-direction: column;
+}
+.discriptioncontact {
+    margin-top: 80px;
+}
+.discriptioncontact p {
+    text-align: center;
+    font-size: 10px;
+}
+.discriptioncontact h1 {
+    text-align: center;
+}
+.discriptioncontact .p2 {
+    margin-top: 20px;
+    color: gray;
+}
+.logocontact {
+    margin-top: 20px;
+}
+.footercontact .tel{
+    margin: -70px 260px;
+}
+.footercontact .pf{
+    margin: 14px -49px;
+    font-size: 8px;
+}
+.footercontact .tf{
+    margin: 10px -34px;
+    font-size: 10px;
+}
+.footercontact .tf2{
+    margin: 32px 93px;
+}
+.footercontact .logo2{
+    position: absolute;
+    margin: -77px 108px;
+}
+.logo2 {
+    position: absolute;
+    margin: -144px 20px;
+}
+
+}

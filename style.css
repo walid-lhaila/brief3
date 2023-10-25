@@ -1,0 +1,1766 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color:#00181f;
+    height: 200vh;
+    overflow-x: hidden;
+  }
+  .backimg {
+    position: absolute;
+    z-index: -1;
+    width:1520px;
+    height: 800px;
+    margin: -238px -162px;
+    opacity: 0.2;
+  }
+a 
+{
+    color: inherit;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+.container 
+{
+    width: 80%;
+    margin: auto;
+}
+/* navbar */
+.nav 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.nav ul
+{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+
+}
+.nav ul li a
+{
+    padding: 15px 25px;
+    color: #fff;
+    transition: ease all 0.5s;
+}
+.nav ul li a:hover
+{
+    color: #98531b;
+}
+#mobile-nav{
+  display: none;
+ 
+}
+
+.burger{
+   color: white;
+   cursor: pointer;
+}
+
+
+.home {
+    position: relative;
+    margin: 200px 163px;
+}
+.p1 {
+    color: rgb(197, 143, 19);
+    font-size: 25px;
+    margin-top: -32px;
+}
+.p3 {
+    color: rgb(197, 143, 19);
+    font-size: 25px;
+    margin: -28px 257px;
+}
+.p2 {
+    color:white ;
+    margin-top: 21px;
+    font-size: 25px;
+}
+.t1 {
+    color: white;
+    margin-top: 9px;
+    font-size: 70px;
+}
+.line {
+    background-color: rgb(197, 143, 19);
+    width: 73px;
+    height: 1px;
+    margin: 24px 250px;
+}
+.reservetable {
+    margin-left: 98px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px 15px;
+    transition: ease all 0.5s;
+}
+button:hover {
+    background-color: rgb(197, 143, 19);
+}
+.pic1 {
+    position: absolute;
+    margin: -307px 700px;
+}
+.pic2 {
+    position: absolute;
+    margin: 203px -9px;
+}
+.home2 {
+    position: relative;
+    display: flex;
+}
+
+.section2 {
+    position: relative;
+    margin: 288px -55px;
+    display: flex;
+    color: white;
+    flex-direction: row-reverse;
+}
+.section2 > div {
+  margin: 10px;
+  padding: 23px 20px;
+}
+.t2 {
+    font-size: 50px;
+    margin: 22px 117px;
+}
+.p4 {
+    font-size: 15px;
+    margin: 10px 134px;
+}
+.p5 {
+    font-size: 18px;
+    margin: 19px 134px;
+}
+.p6 {
+    color: rgb(197, 143, 19);
+    position: absolute;
+    font-size: 15px;
+    margin: -37px 292px;
+}
+.line2 {
+    background-color: rgb(197, 143, 19);
+    width: 121px;
+    height: 1px;
+    margin: 5px 122px;
+}
+.line3 {
+    position: absolute;
+    background-color: rgb(197, 143, 19);
+    width: 100px;
+    height: 1px;
+    margin: 264px 294px;
+}
+.Menu {
+    transition: ease all 0.5s;
+    position: absolute;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin: 327px 370px;
+    padding: 10px 5px;
+}
+.section3 {
+    display: flex;
+    margin: -300px -53px;
+    color: white;
+}
+.section3 > div {
+    margin: 10px;
+    padding: 20px 20px;   
+}
+.sec4 {
+    box-shadow: 0 0 10px rgb(197, 143, 19);
+}
+.sec4 :hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: ease all 0.5s;
+    
+}
+
+.gallery {
+    position: absolute;
+    margin: 348px 463px;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.line4 {
+    position: absolute;
+    margin: 402px 490px;
+    width: 206px;
+    height: 1px;
+    background-color: rgb(197, 143, 19);
+}
+.section4 {
+    display: grid;
+    margin-top: 490px;
+    gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.footer {
+    
+    padding: 50px 5px;
+    position: relative;
+    color: white;
+    display: flex;
+    margin: 430px -164px;
+}
+.linef {
+    position: absolute;
+    margin: 36px -41px;
+    width: 57px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+}
+.pf {
+    margin: 50px -42px;
+}
+.tf2 {
+
+    text-align: center;
+    margin: 69px 409px;
+}
+.tel {
+    margin: -40px 434px;
+}
+.logo2 {
+    position: absolute;
+    margin: -23px 473px;
+}
+.gal {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+    margin-top: 23px;
+}
+.Gallery {
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    margin: -40px 50px;
+}
+.fout {
+    padding-left: 56px;
+}
+.info {
+    position: absolute;
+    color: white;
+    font-size: 70px;
+    margin: -271px 306px;
+}
+.linerese {
+    position: absolute;
+    margin: -197px 300px;
+    width: 135px;
+    height: 1px;
+    background-color: rgb(197, 143, 19);
+}
+.reservation {
+    position: relative;
+    color: white;
+    margin: 425px 240px;
+}
+.res1 {
+    padding: 32px 244px;
+}
+.res2 {
+    font-size: 70px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.res3 {
+    font-size: 70px;
+}
+.forme {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+    margin: 70px -25px;
+    gap: 20px;
+    
+}
+.sub {
+    padding: 10px 40px;
+    border: 1px solid white;
+    background-color: rgb(197, 143, 19);
+    color: white;
+    cursor: pointer;
+}
+.place {
+  cursor: pointer;
+    padding: 10px 42px;
+    border: 1px solid white;
+    background-color:#060A15;
+    color: white;
+}
+.date {
+    padding: 10px 5px;
+    border: 1px solid white;
+    background-color:#060A15;
+    color: white;
+}
+.guest {
+    padding: 10px 5px;
+    border: 1px solid white;
+    background-color:#060A15;
+    color: white;
+}
+.lineres {
+    position: absolute;
+    width: 1171px;
+    height: 1px;
+    background-color: white;
+    margin: 258px -231px;
+}
+.lineres2 {
+    position: absolute;
+    width: 250px;
+    height: 2px;
+    background-color: rgb(197, 143, 19);
+    margin: -191px 232px;
+}
+.parares {
+    font-size: 10px;
+    position: absolute;
+    margin: 265px -213px;
+}
+
+.backimag {
+    position: absolute;
+    z-index: -1;
+    width:1520px;
+    height: 700px;
+    margin: -353px -404px;
+    opacity: 0.3;
+  }
+.menu {
+    font-size: 50px;
+    position: relative;
+    margin: 167px 323px;
+    color: white;
+}
+.linemenu {
+    width: 150px;
+    height: 1px;
+    background-color: rgb(197, 143, 19);
+    margin: -170px 361px;
+}
+.picmenu {
+    position: absolute;
+    z-index: -1;
+    width:1520px;
+    height: 525px;
+    margin: -182px -324px;
+    opacity: 0.1;
+}
+.breakfast {
+    color: white;
+    font-size: 50px;
+    margin: 347px 660px;
+}
+.linefast {
+    width: 220px;
+    height: 1px;
+    background-color: rgb(197, 143, 19);
+    margin: -354px 650px;
+}
+.ftback {
+    position: absolute;
+    z-index: -1;
+    width:1520px;
+    height: 308px;
+    margin:-85px -6px; 
+    opacity: 0.2; 
+}
+.bfast {
+    position: relative;
+    display: flex;
+    margin: 454px 2px;
+}
+.m {
+    color: white;
+    margin: 71px 101px;
+    font-size: 15px;
+}
+.pict {
+    width: 520px;
+    height: 250px;
+    margin: 19px 10px;
+}
+.l1 {
+    position: absolute;
+     width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 115px 850px;
+}
+.l2 {
+    position: absolute;
+    width: 70px;
+   height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 78px 850px;
+}
+.l3 {
+    position: absolute;
+    width: 70px;
+   height: 1px;
+   background-color:  rgb(152, 152, 152);
+   margin: 149px 850px;
+}
+.l4 {
+    position: absolute;
+    width: 70px;
+   height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 184px 850px;
+}
+.l5 {
+    position: absolute;
+    width: 70px;
+   height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 221px 850px;
+}
+.l6 {
+    position: absolute;
+    width: 70px;
+   height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 256px 850px;
+}
+.prix {
+    color: white;
+    font-size: 15px;
+    margin: 70px 0px;
+}
+.mm {
+    color: white;
+    margin: 68px 181px;
+    font-size: 15px;
+}
+.l7 {
+    position: absolute;
+    width: 70px;
+   height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 252px 1348px;
+}
+.l8 {
+    position: absolute;
+    width: 70px;
+   height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 146px 1348px;
+}
+.l9 {
+    position: absolute;
+    width: 70px;
+   height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 76px 1348px;
+}
+.l10 {
+    position: absolute;
+    width: 70px;
+   height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 218px 1348px;
+}
+.l11 {
+    position: absolute;
+    width: 70px;
+   height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 184px 1348px;
+}
+.l12 {
+    position: absolute;
+    width: 70px;
+   height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 112px 1348px;
+}
+.prix2 {
+    color: white;
+    font-size: 15px;
+    margin: 68px -69px;
+}
+.linebeetwen {
+    position: absolute;
+    width: 1px;
+   height: 160px;
+   background-color: rgb(152, 152, 152);
+   margin: 89px 1044px;
+}
+.brunch {
+    position: relative;
+    display: flex;
+}
+.brunchtitle {
+    color: white;
+    font-size: 50px;
+    margin: -407px 620px;
+}
+.linebrunch {
+    position: absolute;
+    width: 278px;
+    height: 1px;
+    background-color: rgb(197, 143, 19);
+    margin: 402px 620px
+}
+.m2 {
+    color: white;
+    margin: 550px 38px;
+    font-size: 15px;
+}
+.li1 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 734px 170px;
+}
+.li2 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 593px 170px;
+}
+
+.li3 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 629px 170px;
+}
+
+.li4 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 664px 170px;
+}
+
+.li5 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 699px 170px;
+}
+.li6 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 557px 170px;
+}
+.prix3 {
+    color: white;
+    font-size: 15px;
+    margin: 548px 72px;
+}
+.linebeetwen2 {
+    position: absolute;
+    width: 1px;
+   height: 160px;
+   background-color: rgb(152, 152, 152);
+   margin: 569px 362px;
+}
+.mm2 {
+    color: white;
+    margin: 550px 102px;
+    font-size: 15px;
+}
+.li7 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 593px 652px;
+}
+.li8 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 698px 652px;
+}
+.li9 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 626px 652px;
+}
+.li10 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 557px 652px;
+}
+.li11 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 662px 652px;
+}
+.li12 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 734px 652px;
+}
+.prix4 {
+    color: white;
+    margin: 543px 16px;
+}
+.picbrunch {
+    position: absolute;
+    width: 420px;
+    height: 350px;
+    margin: 473px 955px;
+}
+.lunchtitle {
+    color: white;
+    font-size: 50px;
+    margin: -292px 616px;
+}
+.linelunch {
+    position: absolute;
+    width: 278px;
+    height: 1px;
+    background-color: rgb(197, 143, 19);
+    margin: 288px 608px
+}
+.lunch {
+    display: flex;
+    position: relative;
+    margin: 380px 10px;
+    align-items: center;
+   
+}
+.lunch-plats {
+    width: 420px;
+    height: 350px;
+    margin: 5px 29px;
+}
+.menulunch li {
+    color: white;
+    padding: 10px 10px;
+    margin: 0px 10px;
+}
+.menulunch {
+    margin: 5px 111px;
+}
+.linemenulunch1 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -97px -116px;
+}
+.linemenulunch2 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -57px -116px;
+}
+.linemenulunch3 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 57px -116px;
+}
+.linemenulunch4 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -21px -116px;
+}
+.linemenulunch5 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 19px -116px;
+}
+.linemenulunch6 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 95px -116px;
+}
+.menulunch2 li {
+    color: white;
+    padding: 10px 10px;
+}
+.menulunch2 {
+    margin: 0 179px;
+}
+
+.prixlunch li{
+    color: white;
+    padding: 10px 10px;
+    margin: 0px -26px;
+}
+.all-line2 {
+    margin: 0 -61px;
+}
+.prixlunch2 li{
+    color: white;
+    padding: 10px 10px;
+    margin: 0px 25px;
+}
+.linemenulunch7 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -96px -109px;
+}
+.linemenulunch8 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -56px -109px;
+}
+.linemenulunch9 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -19px -109px;
+}
+.linemenulunch10 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 18px -109px;
+}
+.linemenulunch11 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 56px -109px;
+}
+.linemenulunch12 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 98px -109px;
+}
+.menutitle {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: -275px 0px;
+}
+.linedinner {
+    background-color:  rgb(197, 143, 19);
+    height: 1px;
+    width: 274px;
+    margin: 272px 623px;  
+}
+.dinner {
+    display: flex;
+    position: relative;
+    margin: -113px -78px;
+    align-items: center;
+}
+.picdinner {
+    position: absolute;
+    width: 420px;
+    height: 350px;
+    margin: -221px 145px;
+}
+.menudinner li {
+    color: white;
+    padding: 10px 10px;
+    margin: 0px 10px;
+}
+.menudinner {
+    margin: 5px 111px;
+}
+.all-line-dinner {
+    margin: 0 -60px;
+}
+.prixdinner li{
+    color: white;
+    padding: 10px 10px;
+    margin: 0px 87px;
+}
+.linemenudinner1 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -97px -52px;
+}
+.linemenudinner2 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -57px -52px;
+}
+.linemenudinner3 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 57px -52px;
+}
+.linemenudinner4 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -21px -52px;
+}
+.linemenudinner5 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 19px -52px;
+}
+.linemenudinner6 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 95px -52px;
+}
+.menudinner2 li {
+    color: white;
+    padding: 10px 10px;
+    margin: 0px 10px;
+}
+.menudinner2 {
+    margin: 5px 46px;
+}
+.all-line-dinner2 {
+    margin: 0 0px;
+}
+.prixdinner2 li{
+    color: white;
+    padding: 10px 10px;
+    margin: 0px 33px;
+}
+.linemenudinner7 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -97px -52px;
+}
+.linemenudinner8 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -57px -52px;
+}
+.linemenudinner9 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 57px -52px;
+}
+.linemenudinner10{
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -21px -52px;
+}
+.linemenudinner11 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 19px -52px;
+}
+.linemenudinner12 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 95px -52px;
+}
+.linebeetwendinner {
+    position: absolute;
+    width: 1px;
+   height: 160px;
+   background-color: rgb(152, 152, 152);
+   margin: 10px 525px;
+}
+.linebeetwenlunch {
+    position: absolute;
+    width: 1px;
+   height: 160px;
+   background-color: rgb(152, 152, 152);
+   margin: 10px 1022px;
+}
+
+
+
+
+
+
+
+
+.menuspecialtitle {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 288px 1px;
+}
+.linespecial {
+    background-color: rgb(197, 143, 19);
+    height: 1px;
+    width: 288px;
+    margin: -284px 616px;  
+}
+.special {
+    display: flex;
+    position: relative;
+    margin: 1px 1px;
+    align-items: center;
+}
+.special-plats {
+    position: absolute;
+    width: 420px;
+    height: 350px;
+    margin: -191px 38px;
+}
+.menuspecial li {
+    color: white;
+    padding: 10px 10px;
+    margin: 1px 1px;
+}
+.menuspecial {
+    margin: 393px 602px;
+}
+.all-line-special {
+    margin: 1px -600px;
+}
+.prixspecial li{
+    color: white;
+    padding: 10px 10px;
+    margin: 1px 1px;
+}
+.prixspecial {
+    margin: 1px 681px;
+
+}
+.prixspecial2 {
+    margin: 1px -457px;
+}
+.linemenuspecial1 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 57px 1px;
+}
+.linemenuspecial2 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 99px 1px;
+}
+.linemenuspecial3 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 19px 1px;
+}
+.linemenuspecial4 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -22px 1px;
+}
+.linemenuspecial5 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -60px 1px;
+}
+.linemenuspecial6 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -100px 1px;
+}
+.menuspecial2 li {
+    color: white;
+    padding: 10px 10px;
+    margin: 1px 1px;
+}
+.menuspecial2 {
+    margin: 1px -542px;
+}
+.all-line-special2 {
+    margin: 0 537px;
+}
+.prixspecial2 li{
+    color: white;
+    padding: 10px 10px;
+    margin: 1px 1px;
+}
+.linemenuspecial7 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 59px 1px;
+}
+.linemenuspecial8 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 97px 1px;
+}
+.linemenuspecial9 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: 17px 1px;
+}
+.linemenuspecial10{
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -22px 1px;
+}
+.linemenuspecial11 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -60px 1px;
+}
+.linemenuspecial12 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: rgb(152, 152, 152);
+    margin: -100px 1px;
+}
+.linebeetwenspecial {
+    position: absolute;
+    width: 1px;
+   height: 160px;
+   background-color: rgb(152, 152, 152);
+   margin: 10px 1008px;
+}
+
+
+
+
+
+
+.menuboissontitle {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: -224px 1px;
+}
+.lineboisson {
+    background-color: rgb(197, 143, 19);
+    height: 1px;
+    width: 333px;
+    margin: 219px 593px;  
+}
+.boisson {
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin: -101px 1px;
+}
+.menuboisson {
+    margin: 1px 36px;
+}
+.menuboisson li {
+    color: white;
+    padding: 10px 10px;
+}
+.all-line-boisson {
+    margin: 1px -23px;
+}
+.linemenuboisson1 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 96px 1px;
+}
+.linemenuboisson2 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 57px 1px;
+}
+.linemenuboisson3 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 20px 1px;
+}
+.linemenuboisson4 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: -18px 1px;
+}
+.linemenuboisson5 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: -57px 1px;
+}
+.linemenuboisson6 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: -96px 1px;
+}
+.prixboisson {
+    margin: 1px 103px;
+}
+
+.prixboisson li {
+    color: white;
+    padding: 10px 10px;
+}
+.menuboisson2 {
+    margin: 1px 88px;
+}
+.menuboisson2 li {
+    color: white;
+    padding: 10px 10px;
+}
+.all-line-boisson2 {
+    margin: 1px -81px;
+}
+.linemenuboisson7 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 96px 1px;
+}
+.linemenuboisson8 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 56px 1px;
+}
+.linemenuboisson9 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 19px 1px;
+}
+.linemenuboisson10 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: -19px 1px;
+}
+.linemenuboisson11 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: -57px 1px;
+}
+.linemenuboisson12 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: -97px 1px;
+}
+.prixboisson2 {
+    margin: 1px 159px;
+}
+.prixboisson2 li {
+    color: white;
+    padding: 10px 10px;
+}
+.boissonch {
+    position: absolute;
+    margin: -194px 1px;
+    width: 420px;
+    height: 356px;
+}
+.linebeetwenboisson {
+    position: absolute;
+    width: 1px;
+   height: 160px;
+   background-color: rgb(152, 152, 152);
+   margin: 1px 498px;
+}
+
+.menujustitle {
+    font-size: 50px;
+    color: white;
+    margin: 241px 0px;
+    text-align: center;
+}
+.linejus {
+    background-color: rgb(197, 143, 19);
+    width: 212px;
+    height: 1px;
+    margin: -243px 653px;
+}
+.jus {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 54px;
+    
+}
+.nos-jus{
+    position: absolute;
+    margin: -186px 65px;
+    width: 420px;
+    height: 356px;
+}
+.menujus {
+    margin: 300px 638px;
+}
+.menujus li{
+    color: white;
+    padding: 10px 10px;
+}
+.all-line-jus {
+    margin: 0px -630px;
+}
+.linemenujus1 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: -97px 1px;
+}
+.linemenujus2 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: -57px 1px;
+}
+.linemenujus3 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: -19px 1px;
+}
+.linemenujus4 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 20px 1px;
+}
+.linemenujus5 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 57px 1px;
+}
+.linemenujus6 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 95px 1px;
+}
+.prixjus {
+    margin: 1px 708px;
+}
+.prixjus li{
+    color: white;
+    padding: 10px 10px;
+}
+.linebeetwenjus {
+    position: absolute;
+    width: 1px;
+   height: 160px;
+   background-color: rgb(152, 152, 152);
+   margin: 1px 957px;
+}
+.menujus2 {
+    margin: 0px -602px;
+}
+.menujus2 li {
+    color: white;
+    padding: 10px 10px;
+}
+.all-line-jus2 {
+    margin: 1px 608px;
+}
+.linemenujus7 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: -98px 1px;
+}
+.linemenujus8 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: -57px 1px;
+}
+.linemenujus9 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: -21px 1px;
+}
+.linemenujus10 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 18px 1px;
+}
+.linemenujus11 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 59px 1px;
+}
+.linemenujus12 {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+   background-color: rgb(152, 152, 152);
+   margin: 96px 1px;
+}
+.prixjus2 {
+    margin: 1px -528px;
+}
+.prixjus2 li{
+    color: white;
+    padding: 10px 10px;
+}
+.footermenu {
+    padding: 50px 5px;
+    position: relative;
+    color: white;
+    display: flex;
+    margin: -151px 1px;
+}
+.about {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 180px 0px;
+}
+.lineabout {
+    margin: -184px 661px;
+    width: 200px;
+    height: 1px;
+    background-color: rgb(197, 143, 19);
+}
+.backabout {
+    position: absolute;
+    width: 1518px;
+    height:516px;
+    margin-top: -120px;
+    opacity: 0.2;
+    z-index: -1;
+}
+.section1 {
+    display: flex;
+    position: relative;
+    margin-top: 490px;
+   justify-content: center;
+}
+.picabout {
+    width: 503px;
+    height: 323px;
+    margin: 0px 0px;
+}
+.discriptionabout {
+    color: white;
+}
+.discriptionabout h1 {
+    font-size: 40px;
+    margin-top: 36px;
+}
+.discriptionabout p {
+    margin-top: 26px;
+}
+.reservetablebutton {
+    margin: 28px 143px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 10px 15px;
+    transition: ease all 0.5s;
+}
+.span{ 
+    color: #98531b;
+}
+.linenumber {
+    position: absolute;
+    background-color: rgb(197, 143, 19);
+    margin: 1px 142px;
+    width: 112px;
+    height: 1px;
+}
+.sectionabout2 {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.titlepic {
+    display: flex;
+    margin: 0px 80px;
+    justify-content: space-evenly;
+}
+.titlepic h1 {
+    font-size: 50px;
+    color: white;
+    margin: 0px 0px;
+}
+.picabout2 {
+    width: 126px;
+    height: 100px;
+    margin: 0px 66px;
+}
+.discriptionabout2 {
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    margin: 46px 80px;
+    color: white;
+    gap: 40px;
+}
+.discriptionabout2 p {
+    font-size: 10px;
+}
+.picdiscri {
+    width: 683px;
+    height: 374px;
+    margin: 0px 0px;
+}
+.lineab1 {
+    background-color: rgb(197, 143, 19);
+    margin: -16px 0px;
+    width: 50px;
+    height: 1px;
+    position: absolute;
+}
+.sectionabout3 {
+    display: flex;
+    position: relative;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.photosection2 {
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+}
+.picsection2 {
+    height: 100%;
+}
+.picsection2div {
+    grid-row: 1/3;
+}
+.discriptionsection2 {
+    margin: 0px 60px;
+}
+.discriptionsection2 h1{
+    font-size: 50px;
+}
+.span2 {
+    color:  rgb(197, 143, 19);
+}
+.hours {
+    margin: 25px 0px;
+}
+.footerabout {
+    padding: 50px 5px;
+    position: relative;
+    color: white;
+    display: flex;
+    margin: 131px 1px;
+}
+.cards {
+    display: flex;
+    position: relative;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 330px;
+    justify-content: space-around;
+}
+.piccontact {
+    width: 100px;
+    height: 70px;
+}
+.card {
+    border: 3px solid rgb(197, 143, 19);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 30px 75px;
+}
+.card2 {
+    border: 3px solid rgb(197, 143, 19);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 30px 75px
+}
+.card3 {
+    border: 3px solid rgb(197, 143, 19);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 40px 100px
+}
+.card4 {
+    border: 3px solid rgb(197, 143, 19);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 40px 100px
+}
+.backcontact {
+    position: absolute;
+    width: 1525px;
+    height: 500px;
+    z-index: -1;
+    margin: -400px 0px;
+    opacity: 0.3;
+}
+.formulecontact {
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    padding: 10px 163px;
+}
+.logocontact {
+    display: flex;
+    cursor: pointer;
+}
+.logocontact img {
+    width: 60px;
+    height: 40px;
+}
+
+.p2 {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+}
+.namebord {
+    border: none;
+   background: transparent;
+   color: white;
+    padding: 5px 100px;
+}
+.numberbord {
+    border: none;
+   background: transparent;
+   color: white;
+    padding: 5px 100px;
+}
+.emailbord {
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 5px 100px;
+}
+.messagebord {
+    border: none;
+   background: transparent;
+   color: white;
+    padding: 40px 100px;
+}
+.message {
+    padding-top: 20px;
+}
+.email {
+    padding-top: 20px;
+} 
+.number {
+    padding-top: 20px;
+}
+.name {
+    padding-top: 20px;
+}
+.linecontact {
+    position: absolute;
+    background-color: white;
+    width: 362px;
+    height: 1px;
+    margin: 1px 1px;
+}
+.linecontact2 {
+    position: absolute;
+    background-color: white;
+    width: 362px;
+    height: 1px;
+    margin: 1px 1px;
+}
+.linecontact3 {
+    position: absolute;
+    background-color: white;
+    width: 362px;
+    height: 1px;
+    margin: 1px 1px;
+}
+.linecontact4 {
+    position: absolute;
+    background-color: white;
+    width: 362px;
+    height: 1px;
+    margin: 1px 1px;
+}
+.formulecontact h5 {
+    color: white;
+}
+.click {
+    position: absolute;
+    margin-top: 15px;
+    cursor: pointer;
+    padding: 10px 158px;
+    background-color:rgb(197, 143, 19) ;
+    color: white;
+    text-align: center;
+}
+.click :hover {
+    background-color: black;
+}
+.footercontact {
+    padding: 50px 5px;
+    position: relative;
+    color: white;
+    display: flex;
+    margin: 131px 1px;
+}
+.titlefaq {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    margin: 156px 0px;
+}
+.linefaq {
+    position: absolute;
+    background-color: rgb(197, 143, 19) ;
+    height: 1px;
+    width: 110px;
+    margin: -153px 703px;
+}
+.faq {
+    text-align: left;
+    color: rgb(0, 0, 0);
+    margin: 200px 325px;
+}
+
+.footerfaq {
+    padding: 50px 5px;
+    position: relative;
+    color: white;
+    display: flex;
+    margin: 131px 0px;
+}
+.label {
+    background-color: rgb(255, 185, 7);
+    padding: 13px 10px;
+    width: 870px;
+    align-items: center;
+    cursor: pointer;
+}
+.content {
+    color: rgb(179, 179, 179);
+}
+.faq .contentbx .label  ::before {
+    content: '+';
+    
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.faq .contentbx .content {
+    position: relative;
+    background-color: #082c37;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+.faq .contentbx.active .content {
+    height: 90px;
+    padding: 10px;
+    width: 870px;
+}
+.faq .contentbx .label  ::before {
+    content: '-';
+}
